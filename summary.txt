@@ -1,0 +1,34 @@
+Project 2 – Summary of Results
+--------------------------------
+
+World 1
+
+Start: (08, 10)
+Goal: (43, 45)
+
+--- DFS ---
+Path cost: 306.5
+Nodes expanded: 1697
+Runtime: 0.040628 seconds
+
+--- BFS ---
+Path cost: 87.0
+Nodes expanded: 2041
+Runtime: 0.048126 seconds
+
+--- GBFS ---
+Path cost: 94.0
+Nodes expanded: 103
+Runtime: 0.002646 seconds
+
+--- A* ---
+Path cost: 85.0
+Nodes expanded: 1641
+Runtime: 0.042148 seconds
+
+Analysis:
+
+DFS produced the worst path and was inefficient.
+BFS found a short path but expanded the most nodes.
+GBFS was the fastest and expanded the fewest nodes, but was not optimal.
+A* produced the best overall path cost with fewer expansions than BFS.
